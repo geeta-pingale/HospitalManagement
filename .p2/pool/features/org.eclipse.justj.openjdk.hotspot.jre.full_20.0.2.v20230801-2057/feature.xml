@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (c) 2020 Eclipse contributors and others.
+
+This program and the accompanying materials
+are made available under the terms of the Eclipse Public License 2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+-->
+<feature
+      id="org.eclipse.justj.openjdk.hotspot.jre.full"
+      label="%featureName"
+      version="20.0.2.v20230801-2057"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.justj.openjdk.hotspot.jre.full"
+         download-size="19"
+         install-size="65"
+         version="20.0.2.v20230801-2057"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.justj.openjdk.hotspot.jre.full.linux.aarch64"
+         os="linux"
+         arch="aarch64"
+         download-size="122903"
+         install-size="156053"
+         version="20.0.2.v20230801-2057"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64"
+         os="linux"
+         arch="x86_64"
+         download-size="123450"
+         install-size="154285"
+         version="20.0.2.v20230801-2057"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64"
+         os="macosx"
+         arch="aarch64"
+         download-size="120494"
+         install-size="149751"
+         version="20.0.2.v20230801-2057"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64"
+         os="macosx"
+         arch="x86_64"
+         download-size="121819"
+         install-size="150017"
+         version="20.0.2.v20230801-2057"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64"
+         os="win32"
+         arch="x86_64"
+         download-size="120484"
+         install-size="143830"
+         version="20.0.2.v20230801-2057"
+         fragment="true"/>
+
+</feature>

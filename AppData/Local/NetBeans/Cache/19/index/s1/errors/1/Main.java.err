@@ -1,0 +1,6 @@
+ERROR:4:cannot find symbol\n  symbol\d   class Stage\n  location\d class Main
+ERROR:3:method does not override or implement a method from a supertype
+ERROR:6:cannot find symbol\n  symbol\d   class Parent\n  location\d class Main
+ERROR:6:cannot find symbol\n  symbol\d   variable FXMLLoader\n  location\d class Main
+ERROR:7:cannot find symbol\n  symbol\d   class Scene\n  location\d class Main
+ERROR:7:cannot find symbol\n  symbol\d   class Scene\n  location\d class Main
